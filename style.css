@@ -1,0 +1,14 @@
+body{
+    background : #fdfdfd
+}
+
+.canvas{
+    margin-left: 30%;
+    margin-top: 100px;
+}
+.square{
+    display: inline;
+    padding : 30px;
+    border : 1px #000 solid;
+    margin-right: .8px;
+}
