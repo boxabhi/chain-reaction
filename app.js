@@ -4,10 +4,10 @@ var square = document.getElementById('square')
 var html = `<div class="square">1</div>`
 for(var i =0; i<5 ;i++){
 for (let j = 0; j <5 ; j++) {
-    
+
     var node = document.createElement('button')
     node.textContent = `${i}` + `${j}`
-    node.className = 'square'
+    node.className = 'square btn btn-primary'
     square.appendChild(node)
 
 }
